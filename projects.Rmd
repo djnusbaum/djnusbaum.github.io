@@ -1,0 +1,12 @@
+---
+title: "Research Projects"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## FMT in Pediatric Ulcerative Colitis
+
+I worked with Dr. Sonia Michail at CHLA/USC and Dr. Katrine Whiteson at UC Irvine to characterize changes in the gut microbiome and metabolome of pediatric ulcerative colitis patients who underwent fecal microbiota transplantation. For more details, including R scripts used for data analysis, see the [project GitHub](https://github.com/djnusbaum/UC-FMT-Omics){target="_blank"}.
