@@ -10,3 +10,15 @@ navbar:
       href: projects.html
     - text: "CV"
       href: cv.html
+output:
+  html_document:
+    theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
+                 # “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+    highlight: zenburn # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”,
+                       # “zenburn”, “haddock”, “textmate”
+    #code_folding: show
+    #toc: true
+    #toc_depth: 2
+    #toc_float: true
+    css: css/style.css
+runtime: shiny
