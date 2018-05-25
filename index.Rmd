@@ -27,11 +27,11 @@ lapply(files, read_chunk)
 library(shiny)
 ```
 
-# Introduction {.sidebar}
+## Introduction {.sidebar}
 
 I am a 3rd year medical student at the Keck School of Medicine of USC. This page is a place for me to store my CV, information about projects I'm working on, and notes about various topics of interest to me.
 
-# Research Interests
+## Research Interests
 
 * The Gut Microbiome
     + Including bacteria, protozoans, viruses, etc.
@@ -43,7 +43,7 @@ I am a 3rd year medical student at the Keck School of Medicine of USC. This page
 * Hematology & Oncology
     + Pancreatic Cancer
     + Leukemias/Lymphomas
-* Neurodegenerative Disease
+* Neurodegenerative Disorders
     + Parkinson's Disease
     + Alzheimer's Disease  
 * Genomics & Personalized Medicine
