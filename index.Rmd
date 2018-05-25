@@ -1,5 +1,5 @@
 ---
-title: "David Nusbaum"
+title: "Welcome"
 #author: "David Nusbaum"
 #date: May 24, 2018
 output:
@@ -8,7 +8,7 @@ output:
                  # “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
     highlight: zenburn # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”,
                        # “zenburn”, “haddock”, “textmate”
-    code_folding: show
+    #code_folding: show
     toc: true
     toc_depth: 2
     toc_float: true
@@ -48,7 +48,3 @@ I am a 3rd year medical student at the Keck School of Medicine of USC. This page
     + Alzheimer's Disease  
 * Genomics & Personalized Medicine
 * Mitochondrial Disorders
-
-# My ORCID ID
-
-<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-6605-6187" href="https://orcid.org/0000-0001-6605-6187" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-6605-6187</a></div>

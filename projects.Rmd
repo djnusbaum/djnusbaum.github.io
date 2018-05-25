@@ -1,12 +1,31 @@
 ---
 title: "Research Projects"
-output: html_document
+output:
+  html_document:
+    theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
+                 # “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+    highlight: zenburn # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”,
+                       # “zenburn”, “haddock”, “textmate”
+    #code_folding: show
+    toc: true
+    toc_depth: 2
+    toc_float: true
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+# Current Projects
 ## FMT in Pediatric Ulcerative Colitis
 
-I worked with Dr. Sonia Michail at CHLA/USC and Dr. Katrine Whiteson at UC Irvine to characterize changes in the gut microbiome and metabolome of pediatric ulcerative colitis patients who underwent fecal microbiota transplantation. For more details, including R scripts used for data analysis, see the [project GitHub](https://github.com/djnusbaum/UC-FMT-Omics){target="_blank"}.
+I am working with Dr. Sonia Michail at CHLA/USC and Dr. Katrine Whiteson at UC Irvine to characterize changes in the gut microbiome and metabolome of pediatric ulcerative colitis patients who underwent fecal microbiota transplantation. For more details, including R scripts used for data analysis, see the [project GitHub](https://github.com/djnusbaum/UC-FMT-Omics){target="_blank"}.
+
+# Previous Projects
+## Hsiao Lab at UCLA
+
+I first cultivated my interest in the gut microbiome in [Elaine Hsiao's lab](https://hsiao.science){target="_blank"} at UCLA where we looked at the role of gut microbes in mediating the anti-seizure effects of the ketogenic diet.
+
+## Bradley Lab at UCLA
+
+As an undergraduate at UCLA, I worked in Dr. Ken Bradley's lab studying host factors involved in anthrax lethal toxin-induced cell death.

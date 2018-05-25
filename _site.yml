@@ -1,7 +1,7 @@
 name: "davids-page"
 output_dir: "."
 navbar:
-#  title: "David's Website"
+  title: "David Nusbaum"
   type: inverse
   left:
     - text: "Home"
