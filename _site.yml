@@ -1,0 +1,8 @@
+name: "davids-page"
+output_dir: "."
+navbar:
+#  title: "David's Website"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html

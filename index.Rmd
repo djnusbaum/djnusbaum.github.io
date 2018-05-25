@@ -1,0 +1,60 @@
+---
+title: "David Nusbaum"
+#author: "David Nusbaum"
+#date: May 24, 2018
+output:
+  html_document:
+    theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
+                 # “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+    highlight: zenburn # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”,
+                       # “zenburn”, “haddock”, “textmate”
+    code_folding: show
+    toc: true
+    toc_depth: 2
+    toc_float: true
+runtime: shiny
+
+# Other Interests
+# * Public Health
+# * Programming/Computer Science (this page is written in R Markdown) - I think this is a valuable and powerful tool, and I'm interested in incorporating this in my career somehow.
+---
+
+```{r, echo=FALSE, results="hide", message=FALSE, warning=FALSE}
+library(knitr)
+opts_chunk$set(cache=FALSE, eval=TRUE, message=FALSE, warning=FALSE)
+files <- list.files(pattern="ex_0.*.shiny.R", full.names=TRUE)
+lapply(files, read_chunk)
+library(shiny)
+```
+
+# Introduction {.sidebar}
+
+I am a 3rd year medical student at the Keck School of Medicine of USC. This page is a place for me to store my CV, information about projects I'm working on, and notes about various topics of interest to me.
+
+# Research Interests
+
+* The Gut Microbiome
+    + Including bacteria, protozoans, viruses, etc.
+    + Metabolomics
+    + Host-Microbe Interactions
+    + Fecal Microbiota Transplantation
+    + I'm broadly interested in the gut microbiome in general, and its role in human health and in any number of diseases.
+* Infectious Diseases
+* Hematology & Oncology
+    + Pancreatic Cancer
+    + Leukemias/Lymphomas
+* Neurodegenerative Disease
+    + Parkinson's Disease
+    + Alzheimer's Disease  
+* Genomics & Personalized Medicine
+* Mitochondrial Disorders
+
+# Research Projects
+
+**FMT in Pediatric Ulcerative Colitis**
+
+I worked with Dr. Sonia Michail at CHLA/USC and Dr. Katrine Whiteson at UC Irvine to characterize changes in the gut microbiome and metabolome of pediatric ulcerative colitis patients who underwent fecal microbiota transplantation. For more details, including R scripts used for data analysis, see the [project GitHub](https://github.com/djnusbaum/UC-FMT-Omics){target="_blank"}.
+
+# My ORCID ID
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-6605-6187" href="https://orcid.org/0000-0001-6605-6187" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-6605-6187</a></div>
