@@ -28,12 +28,17 @@ html {
 .soc a, .soc svg {
   display: block;
 }
+
+/* Originally the height and width values were 96px/9.6rem */
+/* I thought those logos were too big so I changed it to 56px/5.6rem */
+/* Link for reference: https://codepen.io/ruandre/pen/howFi */
+
 .soc a {
   position: relative;
-  height: 96px;
-  height: 9.6rem;
-  width: 96px;
-  width: 9.6rem;
+  height: 56px;
+  height:5.6rem;
+  width: 56px;
+  width: 5.6rem;
 }
 .soc svg {
   height: 100%;
