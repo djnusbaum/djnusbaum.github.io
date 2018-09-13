@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
 }
 
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -11,21 +12,59 @@ html {
   font-size: 0.625em;
 }
 
+
+/* From here: https://css-tricks.com/svg-symbol-good-choice-icons/ */
+.icon {
+ width:36px;
+ height:36px;
+ vertical-align: middle;
+ /*background:#d3dded;
+ border-style:solid;*/
+
+}
+
+body {
+  padding: 10px;
+}
+
+
+
+/* From Dean Attali website */
+
+.list-inline{padding-left:0;margin-left:-5px;list-style:none}
+.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+.text-center{text-align:center}
+.footer-links {
+    font-size: 18px;
+  }
+  
+.row{margin-right:-15px;margin-left:-15px}
+.col-lg-8{width:66.66666667%}
+.col-lg-offset-2{margin-left:16.66666667%}
+.col-md-10{width:83.33333333%}
+.col-md-offset-1{margin-left:8.33333333%}
+
+/* end */
 .soc {
   display: block;
   font-size: 0;
   list-style: none;
   margin: 0;
-  padding: 48px;
-  padding: 4.8rem;
+  padding: 20px;
   text-align: center;
 }
+
+
 .soc li {
-  display: inline-block;
-  margin: 12px;
-  margin: 1.2rem;
+  /*display: inline-block;*/
+  display:inline;
+  /*margin: 12px;
+  margin: 1.2rem;*/
+  float:left;
 }
-.soc a, .soc svg {
+
+
+.soc a, .soc svg  {
   display: block;
 }
 
@@ -33,21 +72,26 @@ html {
 /* I thought those logos were too big so I changed it to 56px/5.6rem */
 /* Link for reference: https://codepen.io/ruandre/pen/howFi */
 
+
+
 .soc a {
   position: relative;
   height: 56px;
-  height:5.6rem;
+  /*height:5.6rem;*/
   width: 56px;
-  width: 5.6rem;
+  /*width: 5.6rem;*/
+  margin-bottom: 0px;
+  margin-top:8px;
 }
 .soc svg {
-  height: 100%;
-  width: 100%;
+  /*height: 100%;
+  width: 100%;*/ /*Excluding this part makes the icons align more nicely since I'm combining SVGs from different sources that seem to be formatted differently*/
 }
+
 
 /* Size & color changes when hovering over icon */
 
-.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover, .icon-31:hover, .icon-32:hover {
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover, .icon-31:hover, .icon-32:hover, .icon-33:hover, .icon-34:hover{
   border-radius: 100%;
   color: #0e1a25;
   fill: #0e1a25;
@@ -119,7 +163,9 @@ html {
   fill: #6ed926;
 }
 .icon-8:hover {
-  background: #6ed926;
+  /*background: #6ed926;*/
+  color: #6ed926;
+  /*fill:  #6ed926;*/ /*Remove the 'fill' setting here for the logo to turn black on hover.*/
 }
 
 .icon-9 {
@@ -191,7 +237,10 @@ html {
   fill: #2691d9;
 }
 .icon-17:hover {
-  background: #2691d9;
+  /*background: #2691d9;*/
+  color: #2691d9;
+  /*fill:  #2691d9;*/ /*Remove the 'fill' setting here for the logo to turn black on hover.*/
+
 }
 
 .icon-18 {
@@ -308,14 +357,56 @@ html {
 
 /* I added this one for ResearchGate from here: https://colorlib.com/wp/forums/topic/social-icons-for-researchgate-and-academia-edu/ */
 .icon-32 {
-  background-image: url("https://www.researchgate.net/apple-touch-icon-180x180.png");
+  /*background-image: url("https://www.researchgate.net/apple-touch-icon-180x180.png");
   height: 41px;width: 29px;display: inline-block;background-size: 100%;
   background-repeat:no-repeat;vertical-align: middle;
   border-radius: 50%;
-  transform: scale(.7);
+  transform: scale(.7);*/
+  
+  color: #00ccbb;
+  fill: #00ccbb;
+  
 }
 
 .icon-32:hover {
-    -webkit-transform: scale(.75);
-        transform: scale(.75);
+   /* -webkit-transform: scale(.75);
+        transform: scale(.75); */
+        
+        color: #00ccbb;
+        
+}
+
+/* I added this one for Google Scholar from the Academicons SVG file (https://jpswalsh.github.io/academicons/) */
+
+.icon-33 {
+  color: #2780e3;
+  fill: #2780e3;
+}
+
+.icon-33:hover {
+  /*background: #2780e3;*/
+  color: #2780e3;
+  /*fill: #2780e3;*/
+}
+
+.icon-34 {
+  color: #a6ce39;
+  fill: #a6ce39;
+}
+
+.icon-34:hover {
+  /*background: #a6ce39;*/
+  color: #a6ce39;
+  /*fill: #a6ce39;*/
+}
+
+#footer {
+width: 100%;
+height: 28px;
+border-top: 1px solid #E0E0E0;
+position: absolute;
+bottom: 0px; 
+left: 0px; 
+text-align: center; 
+    
 }

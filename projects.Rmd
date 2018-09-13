@@ -17,15 +17,24 @@ runtime: shiny
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ## Current Projects
+
+### Effect of Lymph Node Ratio on Survival in Women With Borderline Ovarian Tumors
+
+Abstract submitted.
+Working with Dr. Koji Matsuo at USC Keck.
+
+## Previous Projects
+
 ### FMT in Pediatric Ulcerative Colitis
 
 I am working with Dr. Sonia Michail at CHLA/USC and Dr. Katrine Whiteson at UC Irvine to characterize changes in the gut microbiome and metabolome of pediatric ulcerative colitis patients who underwent fecal microbiota transplantation. For more details, including R scripts used for data analysis, see the [project site](https://djnusbaum.github.io/UC-FMT-Omics/){target="_blank"}.
 
-## Previous Projects
+[Link to article](https://doi.org/10.1093/femsec/fiy133){target="_blank"} in FEMS Microbiology Ecology (July 2018).
+
 ### Hsiao Lab at UCLA
 
-I first cultivated my interest in the gut microbiome in [Elaine Hsiao's lab](https://hsiao.science){target="_blank"} at UCLA where we looked at the role of gut microbes in mediating the anti-seizure effects of the ketogenic diet.
+I first cultivated my interest in the gut microbiome in [Elaine Hsiao's lab](https://hsiao.science){target="_blank"} at UCLA where we looked at the role of gut microbes in mediating the anti-seizure effects of the ketogenic diet. Christine Olson's project was published in Cell [Link to paper].
 
 ### Bradley Lab at UCLA
 
-As an undergraduate at UCLA, I worked in Dr. Ken Bradley's lab studying host factors involved in anthrax lethal toxin-induced cell death.
+As an undergraduate at UCLA, I worked in Dr. Ken Bradley's lab studying host factors involved in anthrax lethal toxin-induced cell death. Manuscript is currently under review.
