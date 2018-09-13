@@ -163,7 +163,7 @@ David J Nusbaum, Fengzhu Sun, Jie Ren, Zifan Zhu, Natalie Ramsy, Nicholas Pervol
 
 <ul class="soc">
 <li><a href="mailto:dnusbaum@usc.edu" class="icon-8 email" title="Email"><svg class="icon"><use xlink:href="#email" /></svg></a></li>
-<li><a href="https://www.linkedin.com/in/david-j-nusbaum/" target="_blank" class="icon-17 linkedin" title="LinkedIn"><svg class="icon"><use xlink:href="#linkedin" /></svg></a></li>
-<li><a href="https://www.researchgate.net/profile/David_Nusbaum/" target="_blank" class="icon-32 researchgate" title="ResearchGate"><svg class="icon"  style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#researchgate" /></svg></a></li>
-<li><a href="https://scholar.google.com/citations?hl=en&user=VD0TvjQAAAAJ/" target="_blank" class="icon-33 googlescholar" title="GoogleScholar"><svg class="icon" style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#googlescholar" /></svg></a></li>
-<li><a href="https://orcid.org/0000-0001-6605-6187/" target="_blank" class="icon-34 orcid" title="Orcid"><svg class="icon" style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#orcid" /></svg></a></li>
+<li><a href="https://www.linkedin.com/in/david-j-nusbaum" target="_blank" class="icon-17 linkedin" title="LinkedIn"><svg class="icon"><use xlink:href="#linkedin" /></svg></a></li>
+<li><a href="https://www.researchgate.net/profile/David_Nusbaum" target="_blank" class="icon-32 researchgate" title="ResearchGate"><svg class="icon"  style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#researchgate" /></svg></a></li>
+<li><a href="https://scholar.google.com/citations?hl=en&user=VD0TvjQAAAAJ" target="_blank" class="icon-33 googlescholar" title="GoogleScholar"><svg class="icon" style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#googlescholar" /></svg></a></li>
+<li><a href="https://orcid.org/0000-0001-6605-6187" target="_blank" class="icon-34 orcid" title="Orcid"><svg class="icon" style="transform:rotate(180deg);transform:scaleY(-1);"><use xlink:href="#orcid" /></svg></a></li>
