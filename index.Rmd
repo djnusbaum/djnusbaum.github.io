@@ -1,0 +1,50 @@
+---
+title: "Welcome"
+#author: "David Nusbaum"
+#date: May 24, 2018
+output:
+  html_document:
+    theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
+                 # “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+    highlight: zenburn # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”,
+                       # “zenburn”, “haddock”, “textmate”
+    #code_folding: show
+    toc: true
+    toc_depth: 2
+    toc_float: true
+runtime: shiny
+
+# Other Interests
+# * Public Health
+# * Programming/Computer Science (this page is written in R Markdown) - I think this is a valuable and powerful tool, and I'm interested in incorporating this in my career somehow.
+---
+
+```{r, echo=FALSE, results="hide", message=FALSE, warning=FALSE}
+library(knitr)
+opts_chunk$set(cache=FALSE, eval=TRUE, message=FALSE, warning=FALSE)
+files <- list.files(pattern="ex_0.*.shiny.R", full.names=TRUE)
+lapply(files, read_chunk)
+library(shiny)
+```
+
+## Introduction {.sidebar}
+
+I am a 3rd year medical student at the Keck School of Medicine of USC. This page is a place for me to store my CV, information about projects I'm working on, and notes about various topics of interest to me.
+
+## Research Interests
+
+* The Gut Microbiome
+    + Including bacteria, protozoans, viruses, etc.
+    + Metabolomics
+    + Host-Microbe Interactions
+    + Fecal Microbiota Transplantation
+    + I'm broadly interested in the gut microbiome in general, and its role in human health and in any number of diseases.
+* Infectious Diseases
+* Hematology & Oncology
+    + Pancreatic Cancer
+    + Leukemias/Lymphomas
+* Neurodegenerative Disorders
+    + Parkinson's Disease
+    + Alzheimer's Disease  
+* Genomics & Personalized Medicine
+* Mitochondrial Disorders
