@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: ""
 #author: "David Nusbaum"
 #date: May 24, 2018
 output:
@@ -27,24 +27,28 @@ lapply(files, read_chunk)
 library(shiny)
 ```
 
-## Introduction {.sidebar}
 
-I am a 3rd year medical student at the Keck School of Medicine of USC. This page is a place for me to store my CV, information about projects I'm working on, and notes about various topics of interest to me.
 
-## Research Interests
+```{r, echo=FALSE, results="hide", message=FALSE, warning=FALSE}
 
-* The Gut Microbiome
-    + Including bacteria, protozoans, viruses, etc.
-    + Metabolomics
-    + Host-Microbe Interactions
-    + Fecal Microbiota Transplantation
-    + I'm broadly interested in the gut microbiome in general, and its role in human health and in any number of diseases.
-* Infectious Diseases
-* Hematology & Oncology
-    + Pancreatic Cancer
-    + Leukemias/Lymphomas
-* Neurodegenerative Disorders
-    + Parkinson's Disease
-    + Alzheimer's Disease  
-* Genomics & Personalized Medicine
-* Mitochondrial Disorders
+# ## Introduction {.sidebar}
+# I am a 3rd year medical student at the Keck School of Medicine of USC. This page is a place for me to store my CV, information about projects I'm working on, and notes about various topics of interest to me.
+
+
+# ## Research Interests
+# * The Gut Microbiome
+#    + Including bacteria, protozoans, viruses, etc.
+#    + Metabolomics
+#    + Host-Microbe Interactions
+#    + Fecal Microbiota Transplantation
+#    + I'm broadly interested in the gut microbiome in general, and #its role in human health and in any number of diseases.
+#* Infectious Diseases
+#* Hematology & Oncology
+#    + Pancreatic Cancer
+#    + Leukemias/Lymphomas
+#* Neurodegenerative Disorders
+#    + Parkinson's Disease
+#    + Alzheimer's Disease  
+#* Genomics & Personalized Medicine
+#* Mitochondrial Disorders
+```

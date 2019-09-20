@@ -6,10 +6,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Projects"
-      href: projects.html
-    - text: "CV"
-      href: cv.html
+    #- text: "Projects"
+    #  href: projects.html
+    #- text: "CV"
+    #  href: cv.html
+  #right:
+  #  - icon: icon-8
+  #    href: mailto:dnusbaum@usc.edu
+    
 output:
   html_document:
     theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
@@ -20,5 +24,5 @@ output:
     #toc: true
     #toc_depth: 2
     #toc_float: true
-    css: css/style.css
+    #css: css/style.css
 runtime: shiny
